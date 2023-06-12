@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Analysis Results Visualizations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<i>This project presents the results of sentiment analysis on Twitter data through three main visualizations: a pie chart, a line graph, and a tag cloud.</i>
 
-## Available Scripts
+> Pie Chart
 
-In the project directory, you can run:
+<i>The pie chart provides an overview of the sentiment distribution in the analyzed Twitter data. It displays the average sentiment scores categorized as negative, positive, and neutral, giving insights into the overall sentiment tendencies. The size of each segment represents the proportion of each sentiment category in the dataset. By examining this visualization, users can quickly grasp the sentiment distribution and understand the prevailing sentiment in the analyzed data.</i>
 
-### `npm start`
+> Line Graph
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<i>The line graph visualizes sentiment trends over time. It illustrates the average sentiment scores categorized as negative, positive, and neutral on a monthly and yearly basis. This graph helps identify any fluctuations or patterns in sentiment, enabling a deeper understanding of the evolving sentiment landscape. By examining the trends in sentiment over time, users can gain valuable insights into how the sentiment has changed and detect significant events or developments that might have influenced public opinion.</i>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Tag Cloud
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<i>The tag cloud reveals the most frequently used words and the most tagged users in the analyzed Twitter data. It provides a visual representation of the importance and prevalence of specific words and user mentions. The size of each word or user tag corresponds to its frequency or prominence in the dataset. By analyzing this visualization, users can identify popular topics and influential users within the dataset, gaining valuable insights into the discussions and influencers related to the analyzed subject. This information can be useful for understanding the key themes and major contributors in the Twitter data.</i>
