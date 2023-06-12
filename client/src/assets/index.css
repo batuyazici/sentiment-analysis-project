@@ -1,0 +1,258 @@
+* {
+  font-family: 'Playfair Display',serif;
+ }
+body {
+    margin: 0;
+    background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-height: 600px;
+    overflow-y: scroll;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  table {
+    width: auto;
+    height: auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  th {
+    text-align: left;
+  }
+  thead th {
+    background-color: #55608f;
+  }
+  tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  tbody td {
+    position: relative;
+  }
+  tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+  }
+
+  .custom-input {
+    width:550px;
+     /* Adjust this value as needed */
+    margin: 0 auto;
+    background-color: white; /* Change this color to your desired background color */
+    border-color: #5f2c82; /* Change this color to your desired border color */
+  }
+  
+  .custom-input:focus {
+    background-color: white; 
+    border-color:  #49a09d; /* Change this color to your desired border color for the focused state */
+    box-shadow: 0 0 0 0.2rem #49a09d; /* Change this color to your desired box shadow color for the focused state */
+  }
+  
+  .custom-btn {
+    background-color: #5f2c82; /* Change this color to your desired button background color */
+    border-color: #5f2c82; /* Change this color to your desired button border color */
+
+  }
+
+  .custom-btn:hover {
+    background-color: #49a09d; /* Change this color to your desired button background color on hover */
+    border-color: #49a09d; /* Change this color to your desired button border color on hover */
+  }
+
+  .fs-5 a {
+    color:white;
+    text-decoration: none;
+  }
+
+  .fs-5 a:hover {
+    color:#5f2c82;
+    opacity:1;
+    text-decoration: underline;
+  }
+
+  thead th {
+    color:#cccfdd;
+    font-weight: bold;
+  }
+
+  body {
+    margin: 0 auto;
+    background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+  
+  .container-md {
+  margin: 0;
+  }
+  
+  .Line {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  
+ .load-background {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9); 
+  background-color: rgba(255, 255, 255, 0.2);
+
+
+ }
+  .Pie {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.9); 
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .queryinfo {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.9); 
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .Comments {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-right: 0px;
+    width: 10%;
+    padding-right: 1365px;
+  
+  }
+  
+  .Comments img {
+    width: 20%;
+  }
+  
+  .Bar {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  th {
+    text-align: left;
+  }
+  thead th {
+    background-color: #55608f;
+  }
+  tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  tbody td {
+    position: relative;
+  }
+  tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+  }
+
+  .bg-gradient {
+    background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+    opacity: 1;
+  }
+  .custom-alert {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .btn-custom-close {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-custom-close:hover {
+    transform: scale(1.2);
+    background-color: #f44336;
+  }
+  .alert-danger {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .alert-danger button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .alert-danger button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  ul.list-group li.list-group-item {
+    background-color:  var(--bs-card-cap-bg) !important;
+  }
+  .tag-cloud-tag {
+    position: relative;
+  }
+  
+  .tag-cloud-count {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-bottom: 10px;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .tag-cloud-tag:hover .tag-cloud-count {
+    opacity: 1;
+  }
+  
